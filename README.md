@@ -34,7 +34,7 @@ sudo plesk login
 ```
 plesk bin admin --set-admin-password -passwd "MyPassword"
 ```
-and if you want to login without password 
+## and if you want to login without password 
 ```
 sudo /usr/local/psa/bin/admin --get-login-link
 ```
