@@ -29,3 +29,12 @@ sudo -i
 sudo plesk login
 ```
 ## paste link on browser
+
+## if you want to change your plesk admin password 
+```
+plesk bin admin --set-admin-password -passwd "MyPassword"
+```
+and if you want to login without password 
+```
+sudo /usr/local/psa/bin/admin --get-login-link
+```
